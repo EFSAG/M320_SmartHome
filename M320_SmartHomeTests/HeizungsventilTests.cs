@@ -12,7 +12,7 @@ namespace M320_SmartHome.Tests
     public class HeizungsventilTests
     {
 
-        // Test 1: Heizungsventil bei 20°C nicht öffnet
+        
         [TestMethod()]
         public void HeizungsventilOeffnetBei18Grad()
         {
@@ -20,7 +20,7 @@ namespace M320_SmartHome.Tests
 
         }
 
-        // Test 2: Heizungsventil bei 19°C nicht öffnet
+
         [TestMethod()]
         public void HeizungsventilSchliesstBei20Grad()
         {
